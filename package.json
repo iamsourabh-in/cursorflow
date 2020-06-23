@@ -1,0 +1,28 @@
+{
+  "name": "cursorflow",
+  "version": "1.0.0",
+  "description": "flow",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeRusty/cursorflow.git"
+  },
+  "keywords": [
+    "socket",
+    "p5",
+    "js"
+  ],
+  "author": "Sourabh Rustagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeRusty/cursorflow/issues"
+  },
+  "homepage": "https://github.com/codeRusty/cursorflow#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
