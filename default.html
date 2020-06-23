@@ -2,14 +2,13 @@
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
-    <script src="flow.js"></script>
   </head>
   <body>
     absolute : <label id="absolute"></label> alpha:
     <label id="alpha"></label> beta : <label id="beta"></label> gamma :
     <label id="gamma"></label>
   </body>
-  
+
   <script>
     var socket = io();
     io.on("connection", (socket) => {
@@ -19,4 +18,6 @@
       });
     });
   </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="flow.js"></script>
 </html>
